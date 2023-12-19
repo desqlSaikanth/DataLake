@@ -15,22 +15,24 @@ FROM "AwsDataCatalog"."learn_by_doing"."university_ranking_csv" limit 10;
 
 --- Data Quality Issues ---
 --- 1. Top 5 universities ---
-SELECT * 
+SELECT *
 FROM "AwsDataCatalog"."learn_by_doing"."university_ranking_csv"
 WHERE rank_display < 5
-ORDER BY year, rank_display;
+ORDER BY year ASC, rank_display ASC;
 
 --- Distinct Rank Display Values Sorted by Length
-SELECT DISTINCT rank_display, length(rank_display) as rank_length
+SELECT DISTINCT rank_display, LENGTH(rank_display) AS rank_length
 FROM "AwsDataCatalog"."learn_by_doing"."university_ranking_csv"
-ORDER BY length(rank_display) desc;
+ORDER BY rank_length DESC;
+
 
 
 --- 2. Top 5 universities - String ---
-SELECT * 
+SELECT *
 FROM "AwsDataCatalog"."learn_by_doing"."university_ranking_csv"
-WHERE rank_display in ('1','2','3','4','5')
-ORDER BY year, rank_display;
+WHERE CAST(rank_display AS INTEGER) <= 5
+ORDER BY year, CAST(rank_display AS INTEGER);
+
 
 --- 3. Check Column Mapping - Cross Check Athena Output and CSV File Content. Look for double quotes! ---
 SELECT * 
