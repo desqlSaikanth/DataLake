@@ -1,5 +1,5 @@
-QS World University Rankings 2017 - 2022
-    Discover and explore the world's leading academic institutions
-    
-We will be using the QS World University Rankings dataset for these labs
+
+Explore the premier academic institutions worldwide through the QS World University Rankings dataset spanning from 2017 to 2022. 
+
+Access and analyze the rankings of these universities for a comprehensive understanding. You can find the dataset here 
 https://www.kaggle.com/padhmam/qs-world-university-rankings-2017-2022
