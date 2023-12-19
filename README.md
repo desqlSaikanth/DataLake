@@ -9,26 +9,11 @@ This work is licensed under a
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
-# Data Lake in AWS - Easiest Way to Learn Course
-  
-## To Enroll
-https://www.udemy.com/course/data-lake-in-aws/?referralCode=CED92E2DBC4FCE825B96
-  
-In this course, we will begin by gaining an understanding of the fundamental concepts of a data lake and when it is the appropriate solution as opposed to a data warehouse  
-  
-We will then delve into the various components that make up a data lake solution, including the ability to query files directly using SQL for rapid ad hoc analysis of datasets  
-  
-During the course, we will cover the topic of handling changes to the structure of the files in the data lake. We will delve into the various scenarios, such as new fields, changes in data types, and missing data, and discuss the techniques on how to handle them effectively. We will also delve into Glue Catalog Management and the evolution of schemas, with a focus on minimizing disruption to downstream systems  
-  
-We will also delve into different data formats, such as CSV, Parquet, Avro, and ORC, and examine their respective strengths and weaknesses. Following that, we will delve into Glue ETL, a robust Apache Spark-based solution for data transformation.  
-  
-This course is filled with hands-on exercises and projects.  
-  
-To showcase the scalability of Athena, we will query the large Amazon Customer Reviews dataset containing over 130 million reviews. Finally, we will construct a serverless application using Kinesis Firehose, Lambda, Comprehend AI, Glue, Athena, and S3, which can process an unlimited number of customer reviews, perform sentiment analysis, and store the results in the data lake for querying.  
-  
-I am excited to meet you soon!  
-  
-Thank you!  
-Chandra Lingam  
-Compute With Cloud Inc  
+I covered fundamental data lake concepts, distinguishing its use cases from those of a data warehouse. We delved into the data lake's components, emphasizing the direct SQL querying of files for swift ad hoc analysis.
+
+Addressing file structure changes within the data lake was a key focus, tackling scenarios like new fields, altered data types, and missing data. We extensively discussed effective handling techniques, including Glue Catalog Management and schema evolution, with a specific aim to minimize disruptions in downstream systems.
+
+Exploration of diverse data formats (CSV, Parquet, Avro, ORC) ensued, highlighting their strengths and weaknesses. Our journey extended to Glue ETL, exploring its robustness as an Apache Spark-based solution for data transformation.
+
+The course was project-oriented, featuring hands-on exercises. To exemplify Athena's scalability, we conducted queries on the vast Amazon Customer Reviews dataset, comprising over 130 million reviews. The culmination involved constructing a serverless application. Utilizing Kinesis Firehose, Lambda, Comprehend AI, Glue, Athena, and S3, we engineered a system capable of processing an unlimited volume of customer reviews, conducting sentiment analysis, and storing results in the data lake for seamless querying.on!  
   
